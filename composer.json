@@ -1,0 +1,38 @@
+{
+    "name": "semexpert/featuredproduct",
+    "description": "Create an unlimited number of product groups and add those groups into cms pages using widgets",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "type": "magento-module",
+    "authors": [
+      {
+        "name": "Manuel Canepa",
+        "email": "manuel@semexpert.com.ar"
+      }
+    ],
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://packages.semexpert.com.ar"
+      },
+      {
+        "type": "composer",
+        "url": "https://packages.firegento.com"
+      }
+    ],
+    "require": {
+      "php": "~5.6"
+    },
+    "require-dev": {
+      "aoepeople/composer-installers": "^0.0.4",
+      "ecomdev/ecomdev_phpunit": "^0.3.7",
+      "semexpert/magento_ee": "^1.14",
+      "n98/magerun": "^1.100",
+      "sitewards/modman-php": "dev-master",
+      "colinmollenhour/modman": "dev-master",
+      "squizlabs/php_codesniffer": "^3.0@dev",
+      "magento-ecg/coding-standard": "^3.1",
+      "phpmd/phpmd": "dev-master",
+      "semexpert/devscripts": "dev-master"
+    }
+  }
